@@ -1,9 +1,23 @@
+html{
+  font-size: 16;
+}
+.top-icons{
+  display: flex;
+  justify-content: space-between;
+  margin-left:5rem;
+  margin-right: 5rem;
+}
+.homepage{
+background-image: url("./logos/bar.jpg");
+  background-size: 100vh 100%;;
+}
 .landing {
-  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: -apple-systrem, BlinkMacSystremFont, sans-serif;
   width: 100%;
   height: 100vh;
- /* padding-bottom: 600px;*/
-  background-color: blue;
+  /* padding-bottom: 600px;*/
+  /*background-image: url("./logos/bar.jpg");
+  background-size: 100vh 100%;;*/
   display: flex;
   align-items: center;
   justify-content: center;
@@ -11,11 +25,11 @@
 .landing-info {
   text-align: center;
 }
-.cafe-logo{
+.cafe-logo {
   margin-left: 5px;
   margin-top: 50px;
 }
-.phone-logo{
+.phone-logo {
   margin-left: 150px;
   margin-top: 50px;
 }
@@ -26,9 +40,9 @@
   border-radius: 20.5px;
   border: solid 1px #ff3933;
   background-color: #ff3933;
- /* width: 56px;
+  /* width: 56px;
   height: 24px;*/
- font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: -apple-systrem, BlinkMacSystremFont, sans-serif;
   font-size: 45px;
   font-weight: bold;
   font-style: normal;
@@ -38,8 +52,8 @@
   text-align: center;
   color: white;
 }
-.cuisine{
- /* width: 284px;
+.cuisine {
+  /* width: 284px;
   height: 90px;*/
   /*font-family: SFProText;*/
   font-size: 90px;
@@ -51,8 +65,8 @@
   text-align: center;
   color: white;
 }
-.nyc{
-    /*width: 322px;
+.nyc {
+  /*width: 322px;
   height: 69px;*/
   /*font-family: SFProText;*/
   font-size: 60px;
@@ -64,81 +78,139 @@
   text-align: center;
   color: white;
 }
-.map-view{
+.map-view {
   width: 100%;
   height: 50vh;
   margin: 60px 0px 60px 0px;
   background-size: cover;
   background-image: url("./logos/map.png");
 }
-.location{
+.location {
   display: flex;
   align-items: center;
   flex-direction: column;
 }
-.resturant-info{
-  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-  background-color: gray;
+.resturant-info {
+  font-family: -apple-systrem, BlinkMacSystremFont, sans-serif;
+  /*background-color: gray;*/
   text-align: center;
-  width: auto;
+  width: 100%;
   height: auto;
-  padding-left: 7em;
-  padding-right: 7em;
+  /*padding-left: 7rem;*/
+  /*padding-right: 7rem;*/
 }
-.address{
+.address {
   font-size: 35px;
 }
-.days{
-  margin-right: 18px;
+.days {
+  margin-right: 1.9rem;
   font-weight: bold;
 }
-.hour-heading{
-  font-size: 35px;
+.hour-heading {
+  font-size: 2rem;
 }
-.hours{
+.hours {
+  width: 100%;
   text-align: center;
-  font-size: 35px;
+  font-size: 2.2rem;
   display: flex;
   justify-content: center;
+  margin-bottom: 3rem;
+}
+.insta-pics {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.pic-1 {
+  margin:.5rem;
+  background-color: blue;
+  width: 400px;
+  height: 400px;
+}
+.pic-2 {
+  margin:.5rem;
+  background-color: red;
+  width: 400px;
+  height: 400px;
+}
+.pic-3 {
+  margin:.5rem;
+  background-color: green;
+  width: 400px;
+  height: 400px;
+}
+.pic-4 {
+  margin:.5rem;
+  background-color: yellow;
+  width: 400px;
+  height: 400px;
+}
+.pic-5 {
+  margin:.5rem;
+  background-color: orange;
+  width: 400px;
+  height: 400px;
+}
+.pic-6 {
+  margin:.5rem;
+  background-color: purple;
+  width: 400px;
+  height: 400px;
 }
 .main {
-  height:200px;
+  display: flex;
+  flex-direction: column;
+  flex-align: center;
+  height: 200px;
   font-size: 20px;
-   width: 375px;
+  width: 100%;
 }
 button {
   border-radius: 20.5px;
   border: solid 1px #ff3933;
   background-color: #ff3933;
-  color:white;
-  font-size: 1.05em;
+  color: white;
+  font-size: 1.05rem;
   min-width: 170px;
 }
 .res a {
   text-decoration: none;
-  color:white;
-  font-size: 1.05em;
+  color: white;
+  font-size: 1.05rem;
+}
+.delivery{
+  text-align: center;
+}
+.booking{
+  text-align: center;
 }
 .divider {
   width: 100%;
   text-align: center;
-  line-height: 0.1em;
- /* border-top: solid 1px black;*/
+  line-height: 0.1rem;
+  /* border-top: solid 1px black;*/
   border-bottom: solid 1px black;
-  margin:10px 0 20px;
+  margin: 10px 0 20px;
 }
 .divider span {
-  background:#fff;
+  background: #fff;
   padding: 0 10px;
-  font-size: 1em;
+  font-size: 1rem;
 }
 .copyright {
-  text-align:left;
-  font-size: .7em;
+  text-align: left;
+  font-size: 0.7rem;
 }
 .footer {
+  /*display: flex;*/
+  /*justify-content: center;*/
   margin: 0 auto;
   width: 100%;
-  height: 100%;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.56));
+  height: auto;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.56)
+  );
 }
