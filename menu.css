@@ -1,0 +1,78 @@
+@font-face {
+    font-family: SFProText;
+    src: url(fonts/SFProText-Bold.ttf);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  font-family: SFProText;
+}
+
+hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 100%;
+  background-color:#d8d8d8;
+  height: 1px;
+}
+
+.wrapper{
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.header-text{
+font-family: helvetica;
+padding-left: 3%;
+padding-top:26px;
+padding-bottom: 26px;
+}
+
+.item{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.flexbox{
+  display:flex;
+  justify-content: space-between;
+}
+
+.breakfast-text{
+padding-left: 3%;
+ position: relative;
+  top: 50%;
+  transform: translateY(-20%);
+}
+
+.breakfast-header{
+background-color: #ff3933;
+color:white;
+height:68px;
+}
+
+.time{
+padding-right: 3%;
+ position: relative;
+  top: 50%;
+  transform: translateY(-18%);
+}
+
+.price{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left:10%;
+}
+
+.description{
+ font-family: helvetica;
+ padding-right: 80%;
+ text-transform: none;
+}
+
+
