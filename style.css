@@ -1,20 +1,29 @@
-@font-face {
+
+
+@media(min-width:320px) {
+
+ /* mobile first*/
+ @font-face {
     font-family: SFProText;
     src: url(fonts/SFProText-Bold.ttf);
   }
 html{
   font-size: 16px;
 }
+body{
+  margin: 0;
+}
 
 .top-icons{
   display: flex;
   justify-content: space-between;
-  margin-left:5rem;
-  margin-right: 5rem;
+/*  margin-left:5rem;
+  margin-right: 5rem;*/
 }
 .homepage{
   background-image: url("./logos/bar.png");
-  background-size: 100vh 100%;
+  background-size: cover;
+
   overflow: hidden;
 }
 .line{
@@ -22,8 +31,8 @@ html{
   color:white;
 }
 .star{
-  margin: 1rem;
-  font-size: 2rem;
+  margin: .6rem;
+  font-size: 1rem;
 }
 .landing {
   font-family: SFProText;
@@ -42,45 +51,52 @@ html{
   height: 50vh;
 }
 .scroll-button{
-  margin-top: 20rem;
-  font-size: 10rem;
+  margin-top: 2rem;
+  font-size: 4rem;
   cursor:pointer;
 }
 .arrow{
   color: white;
 }
 .phone-icon{
-  margin-top: 6rem;
-  font-size: 5rem;
+  margin-top: 1rem;
+  margin-right: 1.5rem;
+  width: 3rem;
+  height: 3rem;
   color:black;
 }
 .scroll-box{
   overflow-y: scroll;
   scroll-behavior: smooth;
-  height:110em;
+  height:300vh;
+}
+section {
+  height: 100vh;
 }
 
-.cafe-logo {
+.cafe-logo-top {
 /*height: auto;
 width: 50%;*/
-  margin-top: 5rem;
-  max-width:300px;
-  max-height:110px;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  /*max-width:9.3rem;
+  max-height:3.4rem;
   width: auto;
-  height: auto;
+  height: auto;*/
+  font-size: 2.5rem;
 }
 
 .menu-button {
-  margin-top: 15px;
-  width: 250px;
-  height: 75px;
+  margin-top: 1rem;
+  width: 8rem;
+  height: 2.5rem;
   border-radius: 20.5px;
   border: solid 1px #ff3933;
   background-color: #ff3933;
   /* width: 56px;
   height: 24px;*/
   font-family: SFProText;
-  font-size: 45px;
+  font-size: 1.5rem;
   font-weight: bold;
   font-style: normal;
   font-stretch: normal;
@@ -90,7 +106,8 @@ width: 50%;*/
   color: white;
 }
 .cuisine {
-  font-size: 5rem;
+  margin:0;
+  font-size: 2.5rem;
   font-weight: 900;
   font-style: normal;
   font-stretch: normal;
@@ -103,7 +120,7 @@ width: 50%;*/
   /*width: 322px;
   height: 69px;*/
   /*font-family: SFProText;*/
-  font-size: 3.5rem;
+  font-size: 1.5rem;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -114,8 +131,8 @@ width: 50%;*/
 }
 .map-view {
   width: 100%;
-  height: 50vh;
-  margin: 0px 0px 60px 0px;
+  height: 50%;
+  /*margin: 0px 0px 60px 0px;*/
   background-size: cover;
   background-image: url("./logos/map.png");
   display: block;
@@ -136,28 +153,29 @@ width: 50%;*/
   /*padding-right: 7rem;*/
 }
 .address {
-  font-size: 2rem;
+  font-size: 1rem;
 }
 .days {
-  margin-right: 1.9rem;
+  margin-right: .5rem;
+  font-weight: bold;
 }
 .address-heading{
-  font-size: 3rem;
+  font-size: 1rem;
   font-weight: bold;
-  margin: 0;
+  margin: .8rem 0 0 0;
 }
 .hour-heading {
   font-weight: bold;
-  font-size: 3rem;
+  font-size: 1rem;
   margin: 0;
 }
 .hours {
   width: 100%;
   text-align: center;
-  font-size: 2.2rem;
+  font-size: .8rem;
   display: flex;
   justify-content: center;
-  margin-bottom: 3rem;
+  /*margin-bottom: .5rem;*/
 }
 .insta-pics {
   display: flex;
@@ -165,46 +183,46 @@ width: 50%;*/
   justify-content: center;
 }
 .pic-1 {
-  margin:.5rem;
+  margin:.2rem;
   background-image: url(./logos/Cafeselect_1.png);
   background-size: cover;
-  width: 400px;
-  height: 400px;
+  width: 10rem;
+  height: 10rem;
 }
 .pic-2 {
-  margin:.5rem;
+  margin:.2rem;
   background-image: url(./logos/Cafeselect_2.png);
   background-size: cover;
-  width: 400px;
-  height: 400px;
+  width: 10rem;
+  height: 10rem;
 }
 .pic-3 {
-  margin:.5rem;
+  margin:.2rem;
   background-image: url(./logos/Cafeselect_3.png);
   background-size: cover;
-  width: 400px;
-  height: 400px;
+  width: 10rem;
+  height: 10rem;
 }
 .pic-4 {
-  margin:.5rem;
+  margin:.2rem;
   background-image: url(./logos/Cafeselect_4.png);
   background-size: cover;
-  width: 400px;
-  height: 400px;
+  width: 10rem;
+  height: 10rem;
 }
 .pic-5 {
-  margin:.5rem;
+  margin:.2rem;
   background-image: url(./logos/Cafeselect_5.png);
   background-size: cover;
-  width: 400px;
-  height: 400px;
+  width: 10rem;
+  height: 10rem;
 }
 .pic-6 {
-  margin:.5rem;
+  margin:.2rem;
   background-image: url(./logos/Cafeselect_6.png);
   background-size: cover;
-  width: 400px;
-  height: 400px;
+  width: 10rem;
+  height: 10rem;
 }
 .main {
   display: flex;
@@ -215,14 +233,28 @@ width: 50%;*/
   width: 100%;
   font-family: SFProText;
 }
-button {
+
+.phone{
+  text-align: center;
+  width: 8rem;
+  height: 2.5rem;
   border-radius: 20.5px;
-  border: solid 1px #ff3933;
+  border: solid .0625rem #ff3933;
   background-color: #ff3933;
   color: white;
-  font-size: 1.05rem;
-  min-width: 170px;
   cursor:pointer;
+
+}
+.res{
+  width: 8rem;
+  height: 2.5rem;
+  text-align: center;
+  border-radius: 20.5px;
+  border: solid .0625rem #ff3933;
+  background-color: #ff3933;
+  color: white;
+  cursor:pointer;
+
 }
 .res a {
   text-decoration: none;
@@ -248,17 +280,30 @@ button {
   padding: 0 10px;
   font-size: 1rem;
 }
+.logo{
+  font-size: 2rem;
+  margin: 0;
+}
+
 .copyright {
-  text-align: left;
+  margin-top: 2.5rem;
+  text-align: center;
   font-size: 0.7rem;
   font-family: SFProText;
 }
 .socialmedia{
+  margin-top: .3rem;
   display: flex;
 
 }
 .social-icon{
   margin: .3rem;
+
+
+}
+.social-icon img{
+   width: 2.5rem;
+  height: 2.5rem;
 
 }
 
@@ -276,3 +321,16 @@ button {
     rgba(0, 0, 0, 0.50)
   );
 }
+
+};
+
+
+@media(min-width:960px){
+/*  desktop first*/
+body{
+  background-color: red;
+}
+}
+
+
+
