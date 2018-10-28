@@ -36,9 +36,10 @@ background-image: url("./logos/bar.jpg");
   color: white;
   font-size: 10rem;
 }
-.scroll-icon{
-  /*height: 10rem;*/
-  /*width: 10rem;*/
+.phone-icon{
+  margin-top: 4rem;
+  font-size: 5rem;
+  color:black;
 }
 .scroll-box{
   overflow-y: scroll;
