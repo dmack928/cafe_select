@@ -11,11 +11,16 @@
   font-family: SFProText;
 }
 
-.header img{
+.header img, .header i{
   height: 32px;
   padding-top: 25px;
   padding-bottom: 25px;
   padding-left: 6%;
+}
+
+.header i{
+padding-right: 6%;
+padding-top: 30px;
 }
 
 hr {
@@ -37,6 +42,10 @@ font-family: helvetica;
 padding-left: 6%;
 padding-top:26px;
 padding-bottom: 26px;
+}
+
+.time{
+   white-space: nowrap;
 }
 
 .item{
@@ -75,7 +84,7 @@ padding-right: 6%;
 }
 
 .red{
-  color:red;
+  color:#ff3933;
 }
 
 .price{
@@ -86,7 +95,6 @@ padding-right: 6%;
 
 .description{
  font-family: helvetica;
- padding-right: 80%;
  text-transform: none;
 }
 
@@ -94,5 +102,21 @@ padding-right: 6%;
   background-color: #ff3933 !important;
   color:white !important;
 }
+
+@media only screen and (min-width: 800px) {
+    .first-half, .second-half{
+  width:48%;
+}
+
+.first-half{
+  float:left;
+}
+
+.second-half{
+  float:right;
+}
+}
+
+
 
 
