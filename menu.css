@@ -11,6 +11,13 @@
   font-family: SFProText;
 }
 
+.header img{
+  height: 32px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 6%;
+}
+
 hr {
   border: 0;
   clear:both;
@@ -21,13 +28,13 @@ hr {
 }
 
 .wrapper{
-  padding-left: 3%;
-  padding-right: 3%;
+  padding-left: 6%;
+  padding-right: 6%;
 }
 
 .header-text{
 font-family: helvetica;
-padding-left: 3%;
+padding-left: 6%;
 padding-top:26px;
 padding-bottom: 26px;
 }
@@ -43,25 +50,29 @@ padding-bottom: 26px;
   justify-content: space-between;
 }
 
-.breakfast-text{
-padding-left: 3%;
+.meal-text{
+padding-left: 6%;
  position: relative;
   top: 50%;
   transform: translateY(-20%);
 }
 
-.breakfast-header{
+.meal-header{
 background-color: #ff3933;
 color:white;
 height:68px;
-margin-bottom: 15px;
+margin-bottom: 4px;
 }
 
 .time{
-padding-right: 3%;
+padding-right: 6%;
  position: relative;
   top: 50%;
-  transform: translateY(-18%);
+  transform: translateY(-10%);
+  font-family: helvetica;
+  font-weight: 350;
+  font-size: 85%;
+
 }
 
 .price{
@@ -74,6 +85,11 @@ padding-right: 3%;
  font-family: helvetica;
  padding-right: 80%;
  text-transform: none;
+}
+
+.open{
+  background-color: #ff3933 !important;
+  color:white !important;
 }
 
 
