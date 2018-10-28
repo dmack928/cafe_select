@@ -1,18 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta name=“viewport” content=“width=device-width, initial-scale=1">
   <link rel="stylesheet"
     type="text/css"
     href="./style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+
+
   <title>Cafe Select</title>
 </head>
 <body>
+  <div class="scroll-box">
   <div class="homepage">
   <div class="top-icons">
   <img class="cafe-logo"
     src="./logos/logo@3x.png">
-  <img class="phone-logo"
+  <a href="tel:1-847-555-5555"><img class="phone-logo"
     src="./logos/phone-icon@3x.png">
+  </a>
   </div>
 
   <div class="landing">
@@ -26,10 +32,12 @@
         <hr>
         <button class="menu-button">Menu</button>
       </div>
+      <a class="scroll-button" href="#scroll"><i class="fas fa-chevron-down"></i></a>
     </div>
+
   </div>
 </div>
-  <div class="location">
+  <div id="scroll" class="location">
     <div class="map-view">
     </div>
     <div class="resturant-info">
@@ -59,7 +67,7 @@
         </div>
       </div>
     </div>
-
+  </div>
     <div class="insta-pics">
       <div class="pic-1"></div>
       <div class="pic-2"></div>
@@ -68,6 +76,7 @@
       <div class="pic-5"></div>
       <div class="pic-6"></div>
     </div>
+
 
     <div class= "main">
     <div class="delivery">
@@ -91,23 +100,23 @@
   <div class= "logo">
     <img src="./logos/logo.png" alt="">
   </div>
-  <div class= "divider">
+  <!-- <div class= "divider">
     <span> ⭑ </span>
-  </div>
+  </div> -->
   <div class= "socialmedia">
-    <a href="https://www.facebook.com/Cafe-Select-275017659923/">
+    <a class="social-icon" href="https://www.facebook.com/Cafe-Select-275017659923/">
     <img src="./logos/facebook-logo.png" title="facebook">
     </a>
-    <a href="https://www.opentable.com/r/cafe-select-new-york">
+    <a class="social-icon" href="https://www.opentable.com/r/cafe-select-new-york">
       <img src="./logos/open-table-icon.png" title="open table">
     </a>
-    <a href="https://www.instagram.com/cafe_select_nyc/?hl=en">
+    <a class="social-icon" href="https://www.instagram.com/cafe_select_nyc/?hl=en">
       <img src="./logos/insta-logo.png" title="instagram">
     </a>
-    <a href="#">
+    <a class="social-icon" href="mailto:email@address.com"">
       <img src="./logos/email-icon.png" title="email">
     </a>
-    <a href="tel:2129259322">
+    <a class="social-icon" href="tel:2129259322">
       <img src="./logos/phone-icon.png" title="phone">
       </a>
 </div>
@@ -115,8 +124,9 @@
     <p>&copy; 2018 Café Select </p>
  </div>
 </div>
-    <script src="script.js">
+
+</div>
+<script src="script.js">
     </script>
-  </div>
 </body>
 </html>
