@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta name=“viewport” content=“width=device-width, initial-scale=1">
   <link rel="stylesheet"
     type="text/css"
     href="./style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+
+
   <title>Cafe Select</title>
 </head>
 <body>
+  <div class="scroll-box">
   <div class="homepage">
   <div class="top-icons">
   <img class="cafe-logo"
@@ -26,10 +31,12 @@
         <hr>
         <button class="menu-button">Menu</button>
       </div>
+      <a class="scroll-button" href="#scroll"><i class="fas fa-chevron-down"></i></a>
     </div>
+
   </div>
 </div>
-  <div class="location">
+  <div id="scroll" class="location">
     <div class="map-view">
     </div>
     <div class="resturant-info">
@@ -59,7 +66,7 @@
         </div>
       </div>
     </div>
-
+  </div>
     <div class="insta-pics">
       <div class="pic-1"></div>
       <div class="pic-2"></div>
@@ -68,6 +75,7 @@
       <div class="pic-5"></div>
       <div class="pic-6"></div>
     </div>
+
 
     <div class= "main">
     <div class="delivery">
@@ -115,8 +123,9 @@
     <p>&copy; 2018 Café Select </p>
  </div>
 </div>
-    <script src="script.js">
+
+</div>
+<script src="script.js">
     </script>
-  </div>
 </body>
 </html>
