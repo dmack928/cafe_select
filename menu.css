@@ -3,6 +3,7 @@
     src: url(fonts/SFProText-Bold.ttf);
 }
 
+
 *{
   margin: 0;
   padding: 0;
@@ -11,16 +12,26 @@
   font-family: SFProText;
 }
 
+a{
+  text-decoration: none;
+  color:black;
+  padding-right: 6%;
+}
+
+
 .header img, .header i{
   height: 32px;
   padding-top: 25px;
   padding-bottom: 25px;
   padding-left: 6%;
+  padding-right: 6%;
 }
 
-.header i{
-padding-right: 6%;
-padding-top: 30px;
+.footer img{
+  height: 32px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 6%;
 }
 
 hr {
@@ -107,6 +118,45 @@ padding-right: 6%;
   display: none;
 }
 
+.copyright {
+  margin-top: 2.5rem;
+  text-align: center;
+  font-size: 0.7rem;
+  font-family: SFProText;
+}
+.socialmedia{
+  margin-top: .3rem;
+  display: flex;
+}
+.social-icon{
+  margin: .3rem;
+}
+.social-icon img{
+   width: 2.5rem;
+  height: 2.5rem;
+}
+
+.insta-pics {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 100%;
+  height: 17rem;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.50)
+  );
+}
+
 @media only screen and (min-width: 800px) {
     .first-half, .second-half{
   width:48%;
@@ -118,11 +168,6 @@ padding-right: 6%;
 
 .second-half{
   float:right;
-}
-
-a{
-  text-decoration: none;
-  color:black;
 }
 
 .desktop-menu-nav{

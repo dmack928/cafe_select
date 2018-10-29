@@ -14,6 +14,24 @@ body{
   margin: 0;
 }
 
+a{
+  text-decoration: none;
+  color:black;
+}
+
+.top-icons i{
+padding-right: 50px;
+padding-top: 30px;
+}
+
+.top-icons img{
+  height: 32px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 6%;
+  padding-right: 6%;
+}
+
 .top-icons{
   display: flex;
   justify-content: space-between;
@@ -67,11 +85,7 @@ body{
 .phone-num{
   visibility: hidden;
 }
-.scroll-box{
-  overflow-y: scroll;
-  scroll-behavior: smooth;
-  height:300vh;
-}
+
 section {
   height: 100vh;
 }
@@ -136,7 +150,7 @@ width: 50%;*/
   height: 50%;
   /*margin: 0px 0px 60px 0px;*/
   background-size: cover;
-  background-image: url("./logos/map.png");
+  background-image: url("./logos/wideMap.png");
   display: block;
 }
 .location {
@@ -302,17 +316,13 @@ width: 50%;*/
 .socialmedia{
   margin-top: .3rem;
   display: flex;
-
 }
 .social-icon{
   margin: .3rem;
-
-
 }
 .social-icon img{
    width: 2.5rem;
   height: 2.5rem;
-
 }
 
 .footer {
@@ -383,7 +393,6 @@ width: 50%;*/
   display: block;
   width: 70%;
   height: 70%;
-
 }
 .address {
   font-size: 1rem;
