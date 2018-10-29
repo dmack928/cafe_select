@@ -103,6 +103,10 @@ padding-right: 6%;
   color:white !important;
 }
 
+.desktop-menu-nav{
+  display: none;
+}
+
 @media only screen and (min-width: 800px) {
     .first-half, .second-half{
   width:48%;
@@ -115,6 +119,22 @@ padding-right: 6%;
 .second-half{
   float:right;
 }
+
+a{
+  text-decoration: none;
+  color:black;
+}
+
+.desktop-menu-nav{
+  background-color: #d8d8d8;
+  height:68px;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 6%;
+  text-transform: uppercase;
+  display:"block"!important;
+}
+
 }
 
 
